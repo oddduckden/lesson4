@@ -7,5 +7,5 @@ from sys import argv
 
 scr_name, hours_worked, per_hour_rate, reward = argv
 
-print(hours_worked * per_hour_rate + reward)
+print(float(hours_worked) * float(per_hour_rate) + float(reward))
 
