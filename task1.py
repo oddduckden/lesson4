@@ -3,5 +3,9 @@
 необходимо использовать формулу: (выработка в часах * ставка в час) + премия. Для выполнения расчета для конкретных
 значений необходимо запускать скрипт с параметрами.
 """
+from sys import argv
 
+scr_name, hours_worked, per_hour_rate, reward = argv
+
+print(float(hours_worked) * float(per_hour_rate) + float(reward))
 
